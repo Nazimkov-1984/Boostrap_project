@@ -16,7 +16,13 @@
     font-family: $montserat;
     font-size: 36px;
     color: white;
+    text-align: center;
 }
 .carousel {
     margin-bottom: 50px;
+}
+@media (max-width: 375px) {
+    .carousel {
+        width: 100%;
+    }
 }

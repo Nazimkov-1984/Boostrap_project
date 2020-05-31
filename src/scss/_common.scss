@@ -7,3 +7,10 @@
 .btn {
     font-size: 24px;
 }
+@media (max-width: 375px) {
+    .row {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 375px;
+    }
+}

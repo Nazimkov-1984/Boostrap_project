@@ -10,9 +10,14 @@ padding: 50px 0px;
     font-family: $roboto;
     font-weight: bold;
     font-size: 48px;
-
+    text-align: center;
 }
 .card-img-top {
     width: 60px;
     height: 60px;
+}
+@media (max-width) {
+    .how-do-it {
+        width: 374px;
+    }
 }
