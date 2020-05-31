@@ -1,0 +1,45 @@
+.about-us {
+    padding: 50px 0px 50px 0px;
+}
+.about-us__main-title {
+    font-family: $montserat;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.about-us__main-list {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 50px;
+}
+.about-us__list__item {
+    font-family: $roboto;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.about-us__image__wrapper {
+    width: 460px;
+    height: 600px;
+    background: url(../img/leader.jpg) no-repeat;
+    background-size: cover;
+}
+.about-us__image__wrapper:hover {
+    opacity: 0.7;
+}
+.about-us__title-speaker {
+    font-family: $montserat;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.about-us__subtitle-speaker {
+    font-family: $montserat;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.list-group-item {
+    font-size: 20px;
+}
+.about-us__list {
+list-style-type: none;
+}
